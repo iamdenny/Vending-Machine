@@ -1,0 +1,1164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>JsDoc Reference - dny.Draggable</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	width: 800px;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+#index
+{
+	margin-top: 24px;
+	float: left;
+	width: 160px;
+	position: absolute;
+	left: 8px;
+	background-color: #F3F3F3;
+	padding: 8px;
+}
+
+#content
+{
+	margin-left: 190px;
+	width: 600px;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.summaryTable { width: 100%; }
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: #7F8FB1;
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #777;
+	font-style: italic;
+}
+
+.fineprint
+{
+	text-align: right;
+	font-size: 10px;
+}
+		</style>
+	</head>
+
+	<body>
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center"><a href="../index.html">Class Index</a>
+| <a href="../files.html">File Index</a></div>
+<hr />
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><i><a href="../symbols/_global_.html">_global_</a></i></li>
+	
+	<li><a href="../symbols/dny.Draggable.html">dny.Draggable</a></li>
+	
+	<li><a href="../symbols/dny.Droppable.html">dny.Droppable</a></li>
+	
+	<li><a href="../symbols/dny.VendingMachine.html">dny.VendingMachine</a></li>
+	
+	<li><a href="../symbols/dny.VendingMachine.BeverageEntity.html">dny.VendingMachine.BeverageEntity</a></li>
+	
+	<li><a href="../symbols/dny.VendingMachine.BeverageInventoryModel.html">dny.VendingMachine.BeverageInventoryModel</a></li>
+	
+	<li><a href="../symbols/dny.VendingMachine.CashEntity.html">dny.VendingMachine.CashEntity</a></li>
+	
+	<li><a href="../symbols/dny.VendingMachine.ChangeMoneyBagModel.html">dny.VendingMachine.ChangeMoneyBagModel</a></li>
+	
+	<li><a href="../symbols/dny.VendingMachine.CurrentInsertedMoneyBagModel.html">dny.VendingMachine.CurrentInsertedMoneyBagModel</a></li>
+	
+	<li><a href="../symbols/dny.VendingMachine.EarnedMoneyBagModel.html">dny.VendingMachine.EarnedMoneyBagModel</a></li>
+	
+	<li><a href="../symbols/dny.VendingMachine.MyMoneyBagModel.html">dny.VendingMachine.MyMoneyBagModel</a></li>
+	
+	<li><a href="../symbols/dny.VendingMachine.View.html">dny.VendingMachine.View</a></li>
+	
+</ul>
+<hr />
+			<!-- end publish.classesIndex -->
+		</div>
+		
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Namespace dny.Draggable
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				<br />Version
+					1.0.0.<br />
+				
+				<br />Extends
+					jindo.UIComponent.<br />
+				
+			
+				
+				
+				
+					<br /><i>Defined in: </i> <a href="../symbols/src/D__workspace_2012-02-06_VendingMachine_js_dny.Draggable.js.html">dny.Draggable.js</a>.
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class dny.Draggable.">
+				<caption>Namespace Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/dny.Draggable.html#constructor">dny.Draggable</a></b>
+							</div>
+							<div class="description">This class makes selected elements draggable by mouse.</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the fields documented in the class dny.Draggable.">
+					<caption>Field Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Field Attributes</th>
+							<th scope="col">Field Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&lt;private&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/dny.Draggable.html#_aWindowSize">_aWindowSize</a></b>
+								</div>
+								<div class="description">Window size(width, height)</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;private&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/dny.Draggable.html#_nGapX">_nGapX</a></b>
+								</div>
+								<div class="description">Gap X between draggable element and mouse position</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;private&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/dny.Draggable.html#_nGapY">_nGapY</a></b>
+								</div>
+								<div class="description">Gap Y between draggable element and mouse position</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;private&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/dny.Draggable.html#_welClonedDraggable">_welClonedDraggable</a></b>
+								</div>
+								<div class="description">Cloned draggable element</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;private&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/dny.Draggable.html#_welDraggable">_welDraggable</a></b>
+								</div>
+								<div class="description">Draggable element</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;private&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/dny.Draggable.html#_wfOnMouseDown">_wfOnMouseDown</a></b>
+								</div>
+								<div class="description">Function for mousedown</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;private&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/dny.Draggable.html#_wfOnMouseMove">_wfOnMouseMove</a></b>
+								</div>
+								<div class="description">Function for mousemove</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;private&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/dny.Draggable.html#_wfOnMouseUp">_wfOnMouseUp</a></b>
+								</div>
+								<div class="description">Function for mouseup</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;private&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/dny.Draggable.html#_wfOnWindowResize">_wfOnWindowResize</a></b>
+								</div>
+								<div class="description">Function for window resize</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class dny.Draggable.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&lt;private&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/dny.Draggable.html#_adjustWindowSize">_adjustWindowSize</a></b>(we)
+								</div>
+								<div class="description">Adjust window size.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;private&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/dny.Draggable.html#_calculateGapBetweenElementAndMouse">_calculateGapBetweenElementAndMouse</a></b>(nX, nY)
+								</div>
+								<div class="description">Calculate gap between element and mouse</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;private&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/dny.Draggable.html#_cloneDraggableElement">_cloneDraggableElement</a></b>()
+								</div>
+								<div class="description">Clone draggable element</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;private&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/dny.Draggable.html#_onActivate">_onActivate</a></b>()
+								</div>
+								<div class="description">On activate.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;private&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/dny.Draggable.html#_onDeactivate">_onDeactivate</a></b>()
+								</div>
+								<div class="description">On deactivate.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;private&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/dny.Draggable.html#_onMouseDown">_onMouseDown</a></b>(we)
+								</div>
+								<div class="description">On mouse down.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;private&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/dny.Draggable.html#_onMouseMove">_onMouseMove</a></b>(we)
+								</div>
+								<div class="description">On mouse move.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;private&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/dny.Draggable.html#_onMouseUp">_onMouseUp</a></b>(we)
+								</div>
+								<div class="description">On mouse up.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;private&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/dny.Draggable.html#_removeClonedDraggableElement">_removeClonedDraggableElement</a></b>()
+								</div>
+								<div class="description">Remove cloned draggable element</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;private&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/dny.Draggable.html#_setClonedDraggableElementsPosition">_setClonedDraggableElementsPosition</a></b>(nX, nY)
+								</div>
+								<div class="description">Set cloned draggable element's position</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/dny.Draggable.html#getClonedDraggableElement">getClonedDraggableElement</a></b>()
+								</div>
+								<div class="description">Get cloned draggable element</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/dny.Draggable.html#getDraggableElement">getDraggableElement</a></b>()
+								</div>
+								<div class="description">Get draggable element</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Namespace Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>dny.Draggable</b>
+				</div>
+				
+				<div class="description">
+					This class makes selected elements draggable by mouse.
+					
+				</div>
+				
+				
+				
+				
+					
+					
+					
+						<dl class="detailList">
+						<dt class="heading">Since:</dt>
+							<dd>January 31, 2012</dd>
+						</dl>
+					
+					
+					
+					
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+				<div class="sectionTitle">
+					Field Detail
+				</div>
+				
+					<a name="_aWindowSize"> </a>
+					<div class="fixedFont">&lt;private&gt; 
+					
+					<span class="light">{Array}</span>
+					<b>_aWindowSize</b>
+					
+					</div>
+					<div class="description">
+						Window size(width, height)
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="_nGapX"> </a>
+					<div class="fixedFont">&lt;private&gt; 
+					
+					<span class="light">{Number}</span>
+					<b>_nGapX</b>
+					
+					</div>
+					<div class="description">
+						Gap X between draggable element and mouse position
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="_nGapY"> </a>
+					<div class="fixedFont">&lt;private&gt; 
+					
+					<span class="light">{Number}</span>
+					<b>_nGapY</b>
+					
+					</div>
+					<div class="description">
+						Gap Y between draggable element and mouse position
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="_welClonedDraggable"> </a>
+					<div class="fixedFont">&lt;private&gt; 
+					
+					<span class="light">{Wrapping Element}</span>
+					<b>_welClonedDraggable</b>
+					
+					</div>
+					<div class="description">
+						Cloned draggable element
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="_welDraggable"> </a>
+					<div class="fixedFont">&lt;private&gt; 
+					
+					<span class="light">{Wrapping Element}</span>
+					<b>_welDraggable</b>
+					
+					</div>
+					<div class="description">
+						Draggable element
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="_wfOnMouseDown"> </a>
+					<div class="fixedFont">&lt;private&gt; 
+					
+					<span class="light">{Wrapping Function}</span>
+					<b>_wfOnMouseDown</b>
+					
+					</div>
+					<div class="description">
+						Function for mousedown
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="_wfOnMouseMove"> </a>
+					<div class="fixedFont">&lt;private&gt; 
+					
+					<span class="light">{Wrapping Function}</span>
+					<b>_wfOnMouseMove</b>
+					
+					</div>
+					<div class="description">
+						Function for mousemove
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="_wfOnMouseUp"> </a>
+					<div class="fixedFont">&lt;private&gt; 
+					
+					<span class="light">{Wrapping Function}</span>
+					<b>_wfOnMouseUp</b>
+					
+					</div>
+					<div class="description">
+						Function for mouseup
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="_wfOnWindowResize"> </a>
+					<div class="fixedFont">&lt;private&gt; 
+					
+					<span class="light">{Wrapping Function}</span>
+					<b>_wfOnWindowResize</b>
+					
+					</div>
+					<div class="description">
+						Function for window resize
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					
+				
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name="_adjustWindowSize"> </a>
+					<div class="fixedFont">&lt;private&gt; 
+					
+					
+					<b>_adjustWindowSize</b>(we)
+					
+					</div>
+					<div class="description">
+						Adjust window size.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Wrapping Event}</span> <b>we</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="_calculateGapBetweenElementAndMouse"> </a>
+					<div class="fixedFont">&lt;private&gt; 
+					
+					
+					<b>_calculateGapBetweenElementAndMouse</b>(nX, nY)
+					
+					</div>
+					<div class="description">
+						Calculate gap between element and mouse
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>nX</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>nY</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="_cloneDraggableElement"> </a>
+					<div class="fixedFont">&lt;private&gt; 
+					
+					
+					<b>_cloneDraggableElement</b>()
+					
+					</div>
+					<div class="description">
+						Clone draggable element
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="_onActivate"> </a>
+					<div class="fixedFont">&lt;private&gt; 
+					
+					
+					<b>_onActivate</b>()
+					
+					</div>
+					<div class="description">
+						On activate.
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="_onDeactivate"> </a>
+					<div class="fixedFont">&lt;private&gt; 
+					
+					
+					<b>_onDeactivate</b>()
+					
+					</div>
+					<div class="description">
+						On deactivate.
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="_onMouseDown"> </a>
+					<div class="fixedFont">&lt;private&gt; 
+					
+					
+					<b>_onMouseDown</b>(we)
+					
+					</div>
+					<div class="description">
+						On mouse down.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Wrapping Event}</span> <b>we</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="_onMouseMove"> </a>
+					<div class="fixedFont">&lt;private&gt; 
+					
+					
+					<b>_onMouseMove</b>(we)
+					
+					</div>
+					<div class="description">
+						On mouse move.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Wrapping Event}</span> <b>we</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="_onMouseUp"> </a>
+					<div class="fixedFont">&lt;private&gt; 
+					
+					
+					<b>_onMouseUp</b>(we)
+					
+					</div>
+					<div class="description">
+						On mouse up.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Wrapping Event}</span> <b>we</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="_removeClonedDraggableElement"> </a>
+					<div class="fixedFont">&lt;private&gt; 
+					
+					
+					<b>_removeClonedDraggableElement</b>()
+					
+					</div>
+					<div class="description">
+						Remove cloned draggable element
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="_setClonedDraggableElementsPosition"> </a>
+					<div class="fixedFont">&lt;private&gt; 
+					
+					
+					<b>_setClonedDraggableElementsPosition</b>(nX, nY)
+					
+					</div>
+					<div class="description">
+						Set cloned draggable element's position
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>nX</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>nY</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="getClonedDraggableElement"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Wrapping Element}</span>
+					<b>getClonedDraggableElement</b>()
+					
+					</div>
+					<div class="description">
+						Get cloned draggable element
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Wrapping Element}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getDraggableElement"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Wrapping Element}</span>
+					<b>getDraggableElement</b>()
+					
+					</div>
+					<div class="description">
+						Get draggable element
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Wrapping Element}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+
+		
+<!-- ============================== footer ================================= -->
+		<div class="fineprint" style="clear:both">
+			
+			Documentation generated by <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.4.0 on Fri Feb 17 2012 12:10:40 GMT+0900 (KST)
+		</div>
+	</body>
+</html>
